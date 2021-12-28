@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import mapboxgl, { Map as MapboxMap } from 'mapbox-gl';;
+import mapboxgl, { Map as MapboxMap } from 'mapbox-gl';
 
 @Component({
   selector: 'app-map',
