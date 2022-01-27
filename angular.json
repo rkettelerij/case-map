@@ -76,7 +76,8 @@
               "browserTarget": "case-map:build:production"
             },
             "development": {
-              "browserTarget": "case-map:build:development"
+              "browserTarget": "case-map:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
