@@ -13,7 +13,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   private map: MapboxMap | null = null;
 
   public ngOnInit(): void {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiYWhqYXdvcnNraSIsImEiOiJjazk4ZWtxamwwMXJ3M21wNHlnYTgxbWZrIn0.YmOmIQjlp2c6SE9eWtHtqA';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibmR3dmlld2VyIiwiYSI6ImNsOGxsajhibjBmc3EzbnNkbjF3Z3g3djgifQ.x8taeUyQEt6Ga6um7bzo2w';
   }
 
   public ngAfterViewInit(): void {
